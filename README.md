@@ -1,4 +1,18 @@
 node-shellshock
 ===============
 
-Check if your phone is vulnerable
+# Install
+
+    npm install shellshock -g
+
+# Execute
+
+    shellshock
+
+# Output
+
+    ✗ vulnerable bash
+
+or
+
+    ✓ bash not vulnerable

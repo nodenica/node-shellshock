@@ -1,0 +1,25 @@
+{
+  "name": "shellshock",
+  "version": "0.0.2",
+  "description": "Check if your bash is vulnerable",
+  "author": "Paulo McNally <paulomcnally@gmail.com>",
+  "keywords": [
+    "cli",
+    "shellshock",
+    "check"
+  ],
+  "dependencies": {
+    "colors": "0.6.2"
+  },
+  "bin": {
+    "shellshock": "./bin/shellshock"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulomcnally/node-shellshock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paulomcnally/node-shellshock/issues/new",
+    "email": "paulomcnally@gmail.com"
+  }
+}

@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+
+var exec = require('child_process').exec;
+var crypto = require('crypto');
+var assert = require('assert');
+var colors = require('colors');
+
+var vulnerableOutput = 'c6fbff57430c6b9e1649f0dccfb4ec58';
+var command = 'env x=\'() { :;}; echo vulnerable\' bash -c "echo this is a test"';
+
+exec(command,
+  function (error, stdout, stderr) {
+    // error
+    if (error !== null) {
+      console.log('exec error: ' + error);
+    }
+    else {
+      var hash = crypto.createHash('md5').update(stdout).digest('hex');
+      if (hash===vulnerableOutput) {
+        console.log(colors.red('✗') + ' vulnerable bash');
+      }
+      else {
+        console.log(colors.green('✓') + ' bash not vulnerable');
+      }
+    }
+  });
