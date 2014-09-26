@@ -1,6 +1,6 @@
 {
   "name": "shellshock",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Check if your bash is vulnerable",
   "author": "Paulo McNally <paulomcnally@gmail.com>",
   "keywords": [
