@@ -1,7 +1,7 @@
 {
   "name": "shellshock",
-  "version": "0.0.4",
-  "description": "Check if your bash is vulnerable",
+  "version": "0.0.5",
+  "description": "CLI tool to check via node.js if you have a vulnerable bash Shellshock",
   "author": "Paulo McNally <paulomcnally@gmail.com>",
   "keywords": [
     "cli",
