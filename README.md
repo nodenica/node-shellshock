@@ -1,4 +1,4 @@
-CLI tool to check via node.js if you have a vulnerable bash [Shellshock](https://www.digitalocean.com/community/tutorials/how-to-protect-your-server-against-the-shellshock-bash-vulnerability)
+CLI tool to check via node.js if you have a vulnerable bash [Shellshock (CVE-2014-6271)](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6271)
 
 # Install
 
